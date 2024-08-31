@@ -18,11 +18,13 @@
 }
 .nolist {
     list-style: none;
+    display: flex;
 }
-ul
+.nolist div
 {
     font-size: 14px;
     padding-left: 80px;
+    flex: 1;
 }
 ol{
     font-size: 14px;
